@@ -1,0 +1,146 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  border: 1px solid #000;
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("../imgs/banner.png");
+  border: 1px solid #bb1313;
+  height: 180px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  border: 1px solid #463fd4;
+  height: 50px;
+  width: 100%;
+  background: #000000;
+}
+ul.list_menu {
+  padding: 0;
+  margin: 0;
+  width: 60%;
+  border: 1px;
+  list-style: none;
+  margin: 0 auto;
+  line-height: 27px;
+}
+ul.list_menu li:hover {
+  background: rgb(39, 10, 227);
+}
+ul.list_menu li a {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(234, 234, 234);
+}
+
+ul.list_menu li {
+  float: left;
+  margin: 7px;
+  padding: 5px;
+}
+#main {
+  border: 1px solid #23882a;
+  height: auto;
+  width: 100%;
+}
+
+.sidebar {
+  border: 1px solid #f0f0f0;
+  height: 390px;
+  width: 19.5%;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+  background: #000000;
+}
+
+ul.list_sidebar {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border: 1px;
+  list-style: none;
+
+  line-height: 60px;
+}
+ul.list_sidebar li:hover {
+  background: rgb(39, 10, 227);
+}
+ul.list_sidebar li a {
+  text-decoration: none;
+  text-align: left;
+  color: rgb(255, 241, 241);
+  display: block;
+}
+
+ul.list_sidebar li {
+  margin: 7px;
+  padding: 5px;
+}
+
+.maincontent {
+  border: 1px solid #a71b1b;
+  height: auto;
+  width: 79.4%;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: right;
+}
+ul.product_list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+}
+ul.product_list li {
+  width: 18%;
+  border: 1px dashed #000000;
+  margin: 5px;
+  float: left;
+  height: 260px;
+}
+ul.product_list li a {
+  text-decoration: none;
+}
+
+ul.product_list li img {
+  width: 100%;
+}
+
+p.title_product {
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  font-size: 15px;
+  font-weight: bold;
+}
+p.price {
+  text-align: center;
+  text-decoration: none;
+  color: #e30e0e;
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer {
+  border: 1px solid #22232c;
+  height: 150px;
+  width: 100%;
+  background: #1f2a2d;
+}
+p.footer_coppy {
+  text-align: center;
+  color: #f0f0f0;
+}
+.clear {
+  clear: both;
+}
